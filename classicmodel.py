@@ -1,5 +1,5 @@
-''' emProbit(Y, X, maxiter=100, error=0.01, perturbation=0.001, alpha=0.05, p_special_test=1):
-Parameters Y an Bivariate Vector with 0 or 1 with the same raws with X
+''' linealmodel(Y, X, maxiter=100, error=0.01, perturbation=0.001, alpha=0.05, p_special_test=1):
+Parameters Y an continue variable with the same raws with X
 X is the explicative variables, the constant is colocated in the Execution Problems.
 maxiter is the maximal iteration number for default is 100.
 Error is the error of tolerance to stop the look for the loglikehood in the EM Algorithm. For default is  0.01.
