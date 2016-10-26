@@ -7,10 +7,9 @@ We use the libraries: Numpy, Scipy, Sympy, Math, statsmodels.api, and Python 3.5
 
 The emoneProbitf.py is the function to univariate Probit calculated with EM algorithm with multivariate X predictor.
 
-The embiprobitf.py is the function to bivariate Probir calculated with EM algorithm with multivariate X predictor.
+The embiprobitcontinue.py is the function to estimate the bivariate discrete and continue outputs calculated with EM algorithm with multivariate X predictor.
 
 The classicmodel.py is the function to Linear Clasiccal Model with multivariate X predictor.
 
-The sample_green.py is one ejecution using the file ejemplo_greenvf.csv, the result is show in screen. The constant is agregated in X with function X = sm.add_constant(X, prepend=False).
+The cargar_archivo_sim_discont_02.py is one ejecution using the files generate for generar_aleatorios2.R (This file use R), the result is write in resultado_cont_dist_02.txt. The constant is agregated in X with function X = sm.add_constant(X, prepend=False).
 
-cargar_archivo_prueba_bicontinuo4.py is an example to calculate models with SNPs, it use the file simulation.txt. simulation.txt has the variables: total.status, total.tgres, total-rs3115860_2. We get total.status as Y1, total.tgres as Y2, and X with total.rs3115860_2. For this cases cargar_archivo_prueba_3.py make 9 models with SNps and one model without SNPs. The idea is proof if the SNPs generate a better models that without theirs. The output of cargar_archivo_prueba_bicontinuo4.py are resultado_continue4.txt and timestage_continue4.txt. In resultado_continue4.txt appear the model we get its. In timestage_continue4.txt appear the running times.
