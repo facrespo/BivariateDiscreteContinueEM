@@ -13,3 +13,4 @@ The classicmodel.py is the function to Linear Clasiccal Model with multivariate 
 
 The cargar_archivo_sim_discont_02.py is one ejecution using the files generate for generar_aleatorios2.R (This file use R), the result is write in resultado_cont_dist_02.txt. The constant is agregated in X with function X = sm.add_constant(X, prepend=False).
 
+The file of analisis_bi_discreto_continuo.R make the analysis of the experiment wrote in resultado_cont_dist_02.txt.
